@@ -9,6 +9,21 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+	<div class="row">
+		<div class="col s3"></div>
+		<div class="col s7">
+			<h1>Friend Finder - Survey</h1>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col s3"></div>
+		<div class="col s6">
+			<a id="home" href="/" class="waves-effect waves-light btn">Home</a>
+		</div>
+	</div>
+
 	<div class="row">
 	    <form class="col s12">
 	      <div class="row">
@@ -24,24 +39,31 @@
 	      	<div class="col s3"></div>
 	        <div class="input-field col s6">
 	          <input placeholder="" id="image" type="text" class="validate">
-	          <label for="image">Profile Image</label>
+	          <label for="image">Profile Image Link</label>
 	        </div>
 	        <div class="col s3"></div>
 	      </div>
 
+
+	      <div class="row">
+			<div class="col s3"></div>
+			<div class="col s7">
+				<h6>On a scale of 1 (strongly dislike) to 5 (love), how much do you like:</h6>
+			</div>
+		  </div>
 
 	        <!-- Questions -->
 	      <div class="row">
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q1" class="question browser-default">
 				    <option value="" disabled selected>Question 1</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -51,13 +73,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q2" class="question browser-default">
 				    <option value="" disabled selected>Question 2</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -67,13 +89,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q3" class="question browser-default">
 				    <option value="" disabled selected>Question 3</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -83,13 +105,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q4" class="question browser-default">
 				    <option value="" disabled selected>Question 4</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -99,13 +121,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q5" class="question browser-default">
 				    <option value="" disabled selected>Question 5</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -115,13 +137,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q6" class="question browser-default">
 				    <option value="" disabled selected>Question 6</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -131,13 +153,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q7" class="question browser-default">
 				    <option value="" disabled selected>Question 7</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -147,13 +169,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q8" class="question browser-default">
 				    <option value="" disabled selected>Question 8</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -163,13 +185,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q9" class="question browser-default">
 				    <option value="" disabled selected>Question 9</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -179,13 +201,13 @@
 	      	<div class="col s3"></div>
 			<div class="input-field col s6">
 				  <!-- <label>Browser Select</label> -->
-				  <select class="browser-default">
+				  <select id="Q10" class="question browser-default">
 				    <option value="" disabled selected>Question 10</option>
-				    <option value="1">Option 1</option>
-				    <option value="2">Option 2</option>
-				    <option value="3">Option 3</option>
-				    <option value="4">Option 3</option>
-				    <option value="5">Option 3</option>
+				    <option value="1">1</option>
+				    <option value="2">2</option>
+				    <option value="3">3</option>
+				    <option value="4">4</option>
+				    <option value="5">5</option>
 				  </select>
 			</div>
 			<div class="col s3"></div>
@@ -194,7 +216,7 @@
 		  <div class="row">
 	      	<div class="col s5"></div>
 	  		<div class="col s1">
-	  			<button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+	  			<button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
 	  		</div>	
 		  	<div class="col s6"></div>
 		  </div>
@@ -206,5 +228,53 @@
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+<script>
+	$('#submit').on('click', function() {
+		var name = $('#name').val().trim();
+		var image = $('#image').val().trim();
+		console.log(name);
+		console.log(image);
+
+		var a = (JSON.parse($('#Q1').val()));
+		var b = (JSON.parse($('#Q2').val()));
+		var c = (JSON.parse($('#Q3').val()));
+		var d = (JSON.parse($('#Q4').val()));
+		var e = (JSON.parse($('#Q5').val()));
+		var f = (JSON.parse($('#Q6').val()));
+		var g = (JSON.parse($('#Q7').val()));
+		var h = (JSON.parse($('#Q8').val()));
+		var i = (JSON.parse($('#Q9').val()));
+		var j = (JSON.parse($('#Q10').val()));
+		var total = a + b + c + d + e + f + g + h + i + j;
+		console.log(total);
+	})
+
+	var currentURL = window.location.origin;
+
+	    $.post(currentURL + "/api/friends", friends,
+	    function(data){
+
+	    	// If a table is available... tell user they are booked.
+	    	if(data == true){
+	    		alert("Yay! You are officially booked!")
+	    	}
+
+	    	// If a table is available... tell user they on the waiting list.
+	    	if(data == false){
+	    		alert("Sorry you are on the wait list")
+	    	}
+
+	    	// Clear the form when submitting
+   //  		$('#reserve_name').val("");
+			// $('#reserve_phone').val("");
+			// $('#reserve_email').val("");
+			// $('#reserve_uniqueID').val("");
+
+	    });
+
+// return false;
+
+</script>
 </body>
 </html>
