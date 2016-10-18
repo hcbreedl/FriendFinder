@@ -1,10 +1,3 @@
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
-
 var friends = [
 	{
 	  "name":"Ahmed",
@@ -20,7 +13,42 @@ var friends = [
 	     5,
 	     4,
 	     1
-	   ]
+	   ],
+	   "total": 32
+	},
+	{
+	  "name":"Batman",
+	  "photo":"http://static1.comicvine.com/uploads/scale_small/11/113509/4693444-6164752601-ben_a.jpg",
+	  "scores":[
+	     4,
+	     2,
+	     4,
+	     4,
+	     4,
+	     2,
+	     2,
+	     4,
+	     2,
+	     1
+	   ],
+	   "total": 29
+	},
+	{
+	  "name":"Robin",
+	  "photo":"http://vignette2.wikia.nocookie.net/batman/images/5/59/Batman_'66_-_Burt_Ward_as_Robin.jpg/revision/latest?cb=20140322174122",
+	  "scores":[
+	     1,
+	     2,
+	     3,
+	     4,
+	     5,
+	     1,
+	     2,
+	     3,
+	     4,
+	     5
+	   ],
+	   "total": 30
 	}
 ];
 
